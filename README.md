@@ -3,12 +3,12 @@ My first line in markdown
 add 2 space and the write a new line to add a new line  
 
 ___
-This is how you add horixontal rule in markdown (by adding 3 minus "---" or "___")
+This is how you add horizontal rule in markdown (by adding 3 minus "---" or "___")
 ___
 
 <br>
 
-<!-- with "#" this I am adding 6 levels of headings from bigger to smallser-->
+<!-- with "#" this I am adding 6 levels of headings from bigger to smaller-->
 
 # Example 1
 ## Example 2
@@ -36,7 +36,9 @@ __this is how you write bold__
 
 int main ()
 {
-    printf("Multiple inline code block without c formate")
+    printf("Multiple inline code block without c formate");
+
+    return 0;
 }
 
 ```
@@ -46,7 +48,9 @@ int main ()
 
 int main ()
 {
-    printf("Multiple inline code block with c formate")
+    printf("Multiple inline code block with c formate");
+
+    return 0;
 }
 
 ```
